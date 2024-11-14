@@ -11,7 +11,7 @@ interface Props {
 
 export const Filters: React.FC<Props> = ({ className }) => {
   return (
-    <div className={className}>
+    <div className={className}> 
         <Title text="Фильтрация" size="sm" className="mb-5 font-bold"/>
         {/* Верхние чекбоксы */}
         <div className="flex flex-col gap-4">
@@ -42,7 +42,53 @@ export const Filters: React.FC<Props> = ({ className }) => {
                 text: "Моццарелла",
                 value:"2", 
             },
+            {
+                text: "Чеснок",
+                value:"3", 
+            },
+            {
+                text: "Солённые огурчики",
+                value:"4", 
+            },
+            {
+                text: "Красный лук",
+                value:"5", 
+            },
+            {
+                text: "Томаты",
+                value:"6", 
+            },
             ]}
+            items={[
+                {
+                    text:"Сырный соус",
+                    value:"1",
+                },
+                {
+                    text: "Моццарелла",
+                    value:"2", 
+                },
+                {
+                    text: "Чеснок",
+                    value:"3", 
+                },
+                {
+                    text: "Солённые огурчики",
+                    value:"4", 
+                },
+                {
+                    text: "Красный лук",
+                    value:"5", 
+                },
+                {
+                    text: "Томаты",
+                    value:"6", 
+                },
+                {
+                    text: "cherry",
+                    value:"7", 
+                },
+                ]}
 />
     </div>
   );

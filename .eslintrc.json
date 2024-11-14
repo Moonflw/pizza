@@ -1,3 +1,16 @@
 {
-  "extends": ["next/core-web-vitals", "next/typescript"]
+  "extends": ["next/core-web-vitals", "next/typescript"],
+  "rules": {
+    "@next/next/no-img-element": "off",
+  }
+  
 }
+
+// .eslintrc.js
+// module.exports = {
+//   // другие настройки...
+//   rules: {
+//     '@typescript-eslint/no-unused-vars': 'off', // отключить для TypeScript
+//     'no-unused-vars': 'off', // отключить для JavaScript
+//   },
+// };
